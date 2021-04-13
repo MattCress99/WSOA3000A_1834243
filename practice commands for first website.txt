@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: aquamarine;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            My first Wesite
+        </title>
+    </head>
+   
+    <body>
+        <h1 style="text-align:center;"> MY FIRST WEBSITE</h1>
+        <h2 style="text-align:center;">OR IS IT</h2>
+        <h3 style="text-align:center;">I DONT KNOW</h3>
+        <h4 style="text-align:center;">YOU</h4>
+        <h5 style="text-align:left;"> TELL</h5>
+        <h6 style="text-align:right;">ME</h6>
+        <img src="images/x6rJDFL.gif" class="center"><br>
+
+        
+
+        This is my very first website and I'm <b>extremely excited!!!</b>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <p>
+            Praesent tristique magna sit amet purus gravida quis blandit. <br> 
+            <i>Donec adipiscing tristique risus nec feugiat.</i><br> 
+            Nisi lacus sed viverra tellus. Facilisis volutpat est velit egestas dui. Phasellus egestas tellus rutrum tellus pellentesque eu
+            tincidunt tortor aliquam.
+            <hr>
+            Tempus egestas sed sed risus pretium quam vulputate dignissim. <a href="https://www.google.com" target="blank">Odio aenean sed adipiscing diam
+            donec adipiscing tristique risus nec.</a> Commodo nulla facilisi nullam vehicula ipsum a. At lectus urna duis convallis
+            convallis tellus id. Id consectetur purus ut faucibus pulvinar. Et leo duis ut diam quam nulla porttitor. Massa sed
+            elementum tempus egestas sed sed risus pretium quam. Sem et tortor consequat id porta nibh venenatis. Lectus mauris
+            ultrices eros in cursus turpis massa tincidunt dui. Sed augue lacus viverra vitae congue. Commodo odio aenean sed
+            adipiscing diam donec adipiscing tristique risus. Vulputate dignissim suspendisse in est ante. Ut sem viverra aliquet
+            eget.
+        </p>
+
+        <img src="https://via.placeholder.com/150x350/0000FF/808080">
+
+        <ol>
+            <li>apples</li>
+                <ul>
+                    <br>
+                    <li>Green apples</li>
+                    <li>Granny apples</li>
+                    <li>red apples</li>
+                    <br>
+                </ul>
+            <li>coconuts</li>
+            <li>berries</li>
+            <li>bannanas</li>
+            <li>oranges</li>
+        </ol>
+        
+        <table border="10" cellpadding="10" cellspacing="0">
+            <tr>
+                <th></th>
+                <th>Month</th>
+                <th>Rent</th>
+                <th colspan="2">Utilities</th>
+                <th>Groceries</th>
+                <th>Takeouts</th>
+                <th>Entertainment</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Autumn</td>
+                <td>June</td>
+                <td>R1500</td>
+                <td>R150</td>
+                <td>R250</td>
+                <td>R500</td>
+                <td>R500</td>
+                <td>R1000</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>R1500</td>
+                <td>R150</td>
+                <td>R250</td>
+                <td>R500</td>
+                <td>R500</td>
+                <td>R1000</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>R1500</td>
+                <td>R150</td>
+                <td>R250</td>
+                <td>R500</td>
+                <td>R500</td>
+                <td>R1000</td>
+            </tr>
+        </table>
+        
+        <figure>
+            <img src="images/giphy.gif"
+                alt="Some dude walking"
+                width="420"
+                height="420">
+            <figcaption>Some dude walking</figcaption>
+        </figure>
+
+    </body>
+</html>
+
+
