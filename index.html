@@ -10,25 +10,25 @@
     <body>
         <section class="showcase">
             <header>
-                <h2 class="logo">For The Love Of Techno</h2>
+                <h2 class="logo">NTFS</h2>
                 <div class="toggle"></div>
                 
             </header>
 
-            <video src="explore.mp4" muted loop autoplay></video>
+            <video src="images/Space - 5200.mp4" muted loop autoplay></video>
 
             <div class="overlay"></div>
 
             <div class="text">
-                <h2>THis is going to be my place for some text under my first heading</h2>
-                <p>skippity skat, rap pap pap, skidilliy whoop shup pop woo hehe ha ding dong da skidilly poo swup</p>        
+                <h2>No time for Space</h2>
+                <p>Music, art, expression</p>    
                 <a href="#">Explore</a>
             </div>
 
             <ul class="social">
-                <li><img src="images/facebook.png" width="40" height="40" alt="facebook icon"></li>
-                <li><img src="images/instagram.png" width="40" height="40" alt="instagram icon"></li>
-                <li><img src="images/twitter.png" width="40" height="40" alt="twitter icon"></li>
+                <li><a href="#"><img src="images/facebook.png" width="40" height="40" alt="facebook icon"></a></li>
+                <li><a href="#"><img src="images/instagram.png" width="40" height="40" alt="instagram icon"></a></li>
+                <li><a href="#"><img src="images/twitter.png" width="40" height="40" alt="twitter icon"></a></li>
             </ul>
 
         </section>
@@ -42,5 +42,15 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
     </body>
 </html>
