@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <section class="showcase">
+        <section class="aboutMe">
             <header>
                 <h2 class="logo">NTFS</h2>
                 <div class="toggle"></div>
@@ -19,10 +19,9 @@
 
             <div class="overlay"></div>
 
-            <div class="text">
-                <h2>No time for Space</h2>
-                <p>Music, art, expression</p>    
-                <a href="#">Explore</a>
+            <div class="aboutInfo">
+                <h4>No Time For Space is a movement.</h4> <br> <p>We are an open ended collective, based in Johannesburg South Africa that is trying to uplift and shine a spotlight on multiple creative disciplines within the South African Artistic Industry.</p> <br>
+                <br><p>Our goal is to fill the vacant spaces of SA's creative industry with genuine expression that is free of judgement.</p>
             </div>
 
             <ul class="social">
@@ -45,11 +44,11 @@
 
         <script>
             const menuToggle = document.querySelector('.toggle')
-            const showcase = document.querySelector('.showcase')
+            const aboutMe = document.querySelector('.aboutMe')
 
             menuToggle.addEventListener('click', () => {
                 menuToggle.classList.toggle('active')
-                showcase.classList.toggle('active')
+                aboutMe.classList.toggle('active')
             })
         </script>
     </body>
