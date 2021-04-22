@@ -198,6 +198,7 @@
 
 /* _____________________________________________________________________about.html_____________________________________________________________________ */
 .aboutInfo{
+    margin-top: 75px;
     position: relative;
     z-index: 10;
 }
@@ -223,12 +224,28 @@
     align-items: center;
 }
 
+.aboutInfo h6 {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .aboutInfo p {
     font-size: 1.5em;
     margin: 20px 0;
     font-weight: 420;
     /*max-width: 700px;*/
     text-align: center;
+    align-items: center;
+}
+
+.aboutInfo p1{
+    font-size: 1.25em;
+    margin:20px 0;
+    font-weight: 200;
+    text-align: right;
     align-items: center;
 }
 
@@ -297,6 +314,32 @@
 .aboutMe.active video{
     left:-300px;
     transition: 0.5s;
+}
+
+.column{
+    
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column2{
+    
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* _____________________________________________________________________blog.html_____________________________________________________________________ */
@@ -408,6 +451,9 @@
     left: -300px;
     transition: 0.5s;
 }
+
+
+
 
 @media(max-width: 850px)
 {
