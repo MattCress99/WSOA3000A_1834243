@@ -44,18 +44,26 @@
 }
 
 .showcase video{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.6;
+    transition: 0.5s;
+}
+
+.showcase.active video{
+    left:-300px;
+    transition: 0.5s;
 }
 
 .logo{
     font-size: 2.5em;
     font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -74,6 +82,7 @@
 
 .toggle.active{
     background: url('images/close.png');
+    color: white ;
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
@@ -81,12 +90,13 @@
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 300px;
     height: 100%;
-    display: flex;
+    
+    display:flex;
     align-items: center;
     justify-content: center;
 }
@@ -111,10 +121,11 @@
     position: absolute;
     top: 0;
     left: 0;
+   
     width: 100%;
     height: 100%;
     background: #ffffff;
-    mix-blend-mode: overlay;
+    mix-blend-mode:overlay;
 }
 
 .text{
@@ -273,13 +284,19 @@
 }
 
 .aboutMe video{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.6;
+    transition: 0.5s;
+}
+
+.aboutMe.active video{
+    left:-300px;
+    transition: 0.5s;
 }
 
 /* _____________________________________________________________________blog.html_____________________________________________________________________ */
@@ -375,13 +392,21 @@
 }
 
 .blogPost video{
-    position: absolute;
+    position:fixed;
     top: 0;
-    left: 0;
+    left:0;
     width: 100%;
     height: 100%;
+    
     object-fit: cover;
     opacity: 0.6;
+    transition: 0.5s;
+}
+
+.blogPost.active video
+{
+    left: -300px;
+    transition: 0.5s;
 }
 
 @media(max-width: 850px)

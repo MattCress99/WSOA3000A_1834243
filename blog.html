@@ -16,7 +16,9 @@
 
         </header>
 
-        <video src="images/Space - 5200.mp4" muted loop autoplay></video>
+        
+        <video class="backgroundVideo" src="images/Space - 5200.mp4" muted loop autoplay></video>
+       
 
         <div class="overlay"></div>
 
@@ -215,6 +217,54 @@
 
             <!--blogpost5-->
 
+            <h2>Innovation through minimal effort, a brief history of web robots</h2>
+                <p>
+                    <h5>
+                        We all know what robots are. We have seen them in movies like Terminator and i-robot, or those metal arms that are in
+                        factory production lines and NASA science videos. However, did you know that there are also robots that exist on the
+                        internet or on our computers and phones? Web robots or ‘bots’ are in fact extremely common and we use or get affected by
+                        bots on a daily basis. For instance, Googlebot, which allows us to quickly find the most relevant search results on
+                        Google by searching through millions of webpages in seconds. Websites use chatbots to communicate with their visitors.
+                        There are also malicious bots such as GTbot which was one of the first malicious botnet programs created in 2000 that
+                        was capable of denial of service attacks (DoS attacks). These attacks are cyber-attacks which are designed to shut down
+                        a machine or network and make it inaccessible to the users trying to access it. Another botnet program that emerged in
+                        2007, Storm, was believed to have infected over 50 million computers and was used for many types of crimes including
+                        stock price fraud and identity theft.
+                    </h5>
+                </p>
+                <p>
+                    <h5>
+                        Bots are woven into today’s society and carry out almost all menial tasks that occur on the internet. It is common
+                        practice for computer programmers to make bots that perform functions for them, in fact it is one of the first things
+                        you will be taught to do if you learn to code in a computer language. Websites, programs, applications and even video
+                        games use bots for all sorts of purposes. I personally think it is quite brilliant thinking. Imagine you are a video
+                        game designer and you have to create a video game. You are going to have millions of lines of code to create, sift
+                        through and test. Quite honestly it seems like an impossible task, but because of bots and really clever people, we have
+                        found ways to make this task possible. For instance testing bots, if you’ve got a million lines of code and a couple
+                        thousand functions running at once you will want ways of ensuring that all the functions are running correctly before
+                        you even start the program, otherwise things are going to mess up big time somewhere along the way. So people create
+                        testing bots that are used to test functions before they run to see if they are working correctly. These things become
+                        quite important when you are working with people’s lives, for instance NASA engineers who design rockets, their programs
+                        need to have the speed and accuracy that bots provide in order to tell them if something is going wrong before it
+                        becomes a problem. Or if you work in artificial intelligence, when creating neural network programs that can sometimes
+                        take months on end to run you want to make sure everything is running correctly before you start it.
+                    </h5>
+                </p>
+                <p>
+                    <h5>
+                        So, why am I telling you all this information about bots? Well it’s because I think they are really important, we’ve
+                        been using them all this time, so we should know what they are. They affect us every single day and they can make our
+                        lives both easier and more challenging. I believe robots give a very accurate and funny insight into human nature. Bots
+                        are a perfect example of human intelligence coupled with human laziness. We’re so smart that we create things that do
+                        things for us, so we don’t have to do them again.
+                    </h5>
+                </p>
+                <p>
+                    <h5>
+                        Quite funny, isn’t it.
+                    </h5>
+                </p>
+
             <b>All blog posts written by Matthew Cresswell</b><br>
             <b>Student Number: 1834243</b>
         </div>
@@ -240,11 +290,17 @@
     <script>
         const menuToggle = document.querySelector('.toggle')
         const blogPost = document.querySelector('.blogPost')
+        const BackgroundVideo = document.querySelector('.backgroundVideo')
 
         menuToggle.addEventListener('click', () => {
             menuToggle.classList.toggle('active')
             blogPost.classList.toggle('active')
+            BackgroundVideo.classList.toggle('active')
         })
+    </script>
+
+    <script src>
+
     </script>
 </body>
 
