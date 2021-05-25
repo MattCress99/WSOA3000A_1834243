@@ -1,0 +1,21 @@
+-GET RID OF ALL DIVS IMMEDIATELY!!
+
+-MOVE JS to independent files****************
+
+-Fix blog section with
+
+-fix everywhere where there are h5 in p tags
+
+-split up CSS into separate files****************
+
+-Remove links that do not work***************
+
+-Add contact section************
+
+-Post more personal content such as bonus blog post
+
+-Add details of the characters interaction with the city (possibly a whats happening in the techno scene weekly type thing)
+
+-need to get submit button on contact page working
+
+-
