@@ -18,6 +18,15 @@
     z-index: 10;
 }
 
+.aboutInfo h1{
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: 420;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .aboutInfo h2 {
     font-size: 5em;
     font-weight: 800;
@@ -26,25 +35,12 @@
 }
 
 .aboutInfo h3 {
-    font-size: 2em;
-    font-weight: 600;
-    line-height: 1em;
-}
-
-.aboutInfo h4{
-    font-size: 1.8em;
-    margin: 20px 0;
-    font-weight: 420;
-    text-align: center;
-    align-items: center;
-}
-
-.aboutInfo h6 {
     font-size: 5em;
     font-weight: 800;
     line-height: 1em;
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .aboutInfo p {

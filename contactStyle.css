@@ -101,7 +101,7 @@
 
 input[type=submit] 
 {
-    background-color: #04AA6D;
+    background-color: #047bca;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -110,15 +110,15 @@ input[type=submit]
   
 input[type=submit]:hover 
 {
-    background-color: #45a049;
+    background-color: #0863a0;
 }
 
 .contactUs article
 {
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #f2f2f2;
     padding: 10px;
-    
+    margin-left: 275px;
 }
 
 .contactUs {

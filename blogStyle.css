@@ -108,11 +108,12 @@
 }
 
 .BlogPost1 p {
-    position: fixed;
+    /*position: fixed;*/
     font-size: 1.1em;
     margin: 20px 0;
-    font-weight: 420;
-    max-width: 700px;
+    font-weight: 500;
+    /*max-width: 700px;*/
+    background-blend-mode: overlay;
 }
 
 .BlogPost1 a{
