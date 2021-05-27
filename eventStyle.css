@@ -43,6 +43,36 @@
 
 }
 
+.Events section{margin-top:50px;}
+
+.Events .breakFastClub_Vol1 .howlerlink{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1em;
+    background: transparent;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.Events .breakFastClub_Vol2 .howlerlink2{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1em;
+    background: transparent;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
 .Events video{
     position: fixed;
     top: 0;
@@ -128,6 +158,39 @@
     mix-blend-mode:overlay;
 }
 
+.breakFastClub_Vol1 a{
+    display: inline-block;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-size: 1em;
+    background: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    
+}
+
+.breakFastClub_Vol2 a{
+    display: inline-block;
+    margin-left: 255px;
+    margin-top: 20px;
+    font-size: 1em;
+    background: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+
+
+
+
 .social {
     position: absolute;
     bottom: 20px;
@@ -152,6 +215,64 @@
 .social li a:hover {
     transform: scale(0.5) translateY(-15px);
 }
+
+.Events .breakFastClub_Vol1 {
+    box-sizing: border-box;
+    z-index: 1;
+    margin-left: 180px;
+}
+
+.Events .breakFastClub_Vol2 {
+    box-sizing: border-box;
+    z-index: 1;
+    margin-left: 40px;
+}
+
+.Events .breakFastClub_Vol1 .eventlink:hover{
+    letter-spacing: 6px;
+    
+    margin-left: 234px
+}
+
+.Events .breakFastClub_Vol2 .eventlink1:hover{
+    letter-spacing: 6px;
+    
+    margin-left: 249px
+}
+
+.Events .breakFastClub_Vol1_IMG:hover
+{
+    transform: scale(1.05);
+}
+
+.Events .breakFastClub_Vol2_IMG:hover
+{
+    transform: scale(1.05);
+}
+
+.Events h1{
+    justify-content: center;
+    font-size: 5em;
+    z-index: 1;
+    margin-right: -200px;
+    font-display:inherit;
+}
+
+.Events h2{
+    justify-items: center;
+    font-size: 2em;
+    z-index: 1;
+    font-display:inherit;
+    margin-left: 70px;
+}
+
+.Events h3{
+    justify-items: center;
+    font-size: 2em;
+    z-index: 1;
+    font-display:inherit;
+}
+
 
 
 @media(max-width: 850px)
