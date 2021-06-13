@@ -1,25 +1,35 @@
+• Add details of the characters interaction with the city (possibly a whats happening in the techno scene weekly type thing)
+
+• add NTFS break-fast club volume 1 and volume 2 info when you click on the page
+
+• Blog post 8: A close reading of Graham et al's "Toward a study of information geographies". 
+
+• Blog post 11:  A critical analysis of your own UX and UI in light of all the readings you have done on it. ************done
+
+• Blog post 12: Look at the list of Tweets, articles and things in the Theory Lecture Section. Select one. 
+		Do additional research on it and write a critical reflection on the issue they raise, reflecting
+		on work we have done in the course, the readings supplied, and the additional research you have done. 
+
+• Blog post 13: Reflection on Podcast: Benjamin, R. (2020) ‘‎The Radical AI Podcast: Love, Challenge, and Hope: Building 
+		a Movement to Dismantle the New Jim Code’.
+ 		Available at: https://podcasts.apple.com/us/podcast/love-challenge-hope-building-movement-to-dismantle/id1505229145?i=1000473742475 (Accessed: 21 May 2020).
+
+• Bonus blog posts:
+	- A close reading of Bergstrom, C. and West, J. (2019) ‘Case Study — Criminal Machine Learning’. The University of Washington.
+	- 
+
+
+
+completed:
 -GET RID OF ALL DIVS IMMEDIATELY!!************done
-
 -MOVE JS to independent files****************done
-
 -Fix blog section with***********done
-
--fix everywhere where there are h5 in p tags************done
-
--split up CSS into separate files****************done
-
--Remove links that do not work***************done
-
--Add contact section************done
-
 -Post more personal content such as bonus blog post************done
-
--Add details of the characters interaction with the city (possibly a whats happening in the techno scene weekly type thing)
-
+-fix everywhere where there are h5 in p tags************done
+-split up CSS into separate files****************done
+-Remove links that do not work***************done
+-Add contact section************done
 -need to get submit button on contact page working************done
-
 -create events page************done
+-add howler ticket link************done
 
--add NTFS break-fast club volume 1 and volume 2 info
-
--add howler ticket link
