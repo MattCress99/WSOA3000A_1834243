@@ -134,6 +134,14 @@
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.logo:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.25);
+    transition: 0.2s;
 }
 
 .toggle{

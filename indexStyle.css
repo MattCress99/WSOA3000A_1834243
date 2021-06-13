@@ -11,7 +11,7 @@
     font-family: 'Poppins', sans-serif;
 }
 /* _____________________________________________________________________index.html_____________________________________________________________________ */
-.showcase {
+.homePage {
     position: absolute;
     right: 0;
     width: 100%;
@@ -26,11 +26,11 @@
     transition: 0.5s;
 }
 
-.showcase.active {
+.homePage.active {
     right: 300px;
 }
 
-.showcase header{
+.homePage header{
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@
 
 }
 
-.showcase video{
+.homePage video{
     position: fixed;
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@
     transition: 0.5s;
 }
 
-.showcase.active video{
+.homePage.active video{
     left:-300px;
     transition: 0.5s;
 }
@@ -66,6 +66,14 @@
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.logo:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.25);
+    transition: 0.2s;
 }
 
 .toggle{
@@ -200,8 +208,8 @@
 
 @media(max-width: 850px)
 {
-    .showcase, 
-    .showcase header{
+    .homePage, 
+    .homePage header{
         padding: 40px;
     }
     .text h2{
