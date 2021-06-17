@@ -215,12 +215,10 @@
     {
         left: -35%;
     }
-
     .homePage.active
     {
         right: 35%;
     }
-
     .menu 
     {
         width:35%;
