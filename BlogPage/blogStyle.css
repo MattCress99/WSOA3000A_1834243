@@ -31,7 +31,7 @@
     position: relative;
     width : 60px;
     height: 60px;
-    background: url('images/menu.png');
+    background: url('../images/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -40,7 +40,7 @@
 }
 
 .toggle.active{
-    background: url('images/close.png');
+    background: url('../images/close.png');
     color: white ;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -54,7 +54,6 @@
     right: 0;
     width: 300px;
     height: 100%;
-    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -77,7 +76,7 @@
 }
 
 .overlay {
-    position: absolute;
+    position:fixed;
     top: 0;
     left: 0;
    
@@ -93,7 +92,7 @@
 }
 
 .BlogPost1 h2 {
-    margin-top: 100px;
+    
     font-size: 5em;
     font-weight: 800;
     line-height: 1em;
@@ -114,13 +113,20 @@
     background-blend-mode: overlay;
 }
 
+.BlogPost1 section{
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: #f2f2f2be;
+    padding: 10px;
+}
+
 .BlogPost1 p {
     /*position: fixed;*/
     font-size: 1.1em;
     margin: 20px 0;
     font-weight: 500;
     /*max-width: 700px;*/
-    background-blend-mode: overlay;
+    background-blend-mode: overlay;    
 }
 
 .BlogPost1 a{

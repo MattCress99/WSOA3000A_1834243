@@ -1,3 +1,4 @@
+/* _____________________________________________________________________about.html_____________________________________________________________________ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
@@ -10,13 +11,82 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-/* _____________________________________________________________________index.html_____________________________________________________________________ */
-.homePage {
+
+.aboutInfo{
+    margin-top: 10%;
+    position: relative;
+    z-index: 10;
+    max-width: 85%;
+}
+
+.aboutInfo h1{
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: 420;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutInfo h2 {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.aboutInfo h3 {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.aboutInfo p {
+    /*font-size: 1.5em;*/
+    margin: 20px 0;
+    font-weight: 420;
+    /*max-width: 700px;*/
+    text-align: center;
+    align-items: center;
+}
+
+.aboutInfo p1{
+    font-size: 1.25em;
+    margin:20px 0;
+    font-weight: 200;
+    text-align: right;
+    align-items: center;
+}
+
+.aboutInfo a{
+    display: inline-block;
+    font-size: 1em;
+    background: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.aboutInfo a:hover {
+    letter-spacing: 6px;
+    
+}
+
+
+.aboutMe {
     position: absolute;
     right: 0;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
+    padding-top: 1%;
+    padding-left: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,11 +96,11 @@
     transition: 0.5s;
 }
 
-.homePage.active {
-    right: 300px;
+.aboutMe.active {
+    right: 15%;
 }
 
-.homePage header{
+.aboutMe header{
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +113,7 @@
 
 }
 
-.homePage video{
+.aboutMe video{
     position: fixed;
     top: 0;
     left: 0;
@@ -54,11 +124,11 @@
     transition: 0.5s;
 }
 
-.homePage.active video{
-    left:-300px;
+.aboutMe.active video{
+    left:-15%;
     transition: 0.5s;
 }
-/*this must be added to each .css script*/
+
 .logo{
     font-size: 2.5em;
     font-weight: 300;
@@ -80,7 +150,7 @@
     position: relative;
     width : 60px;
     height: 60px;
-    background: url('images/menu.png');
+    background: url('../images/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -89,7 +159,7 @@
 }
 
 .toggle.active{
-    background: url('images/close.png');
+    background: url('../images/close.png');
     color: white ;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -101,7 +171,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 15%;
     height: 100%;
     
     display:flex;
@@ -135,49 +205,31 @@
     background: #ffffff;
     mix-blend-mode:overlay;
 }
-/*this must be added to each .css script*/
 
-.text{
-    position: relative;
-    z-index: 10;
-}
-
-.text h2 {
-    font-size: 5em;
-    font-weight: 800;
-    line-height: 1em;
-    text-transform: uppercase;
-}
-
-.text h3 {
-    font-size: 2em;
-    font-weight: 600;
-    line-height: 1em;
-}
-
-.text p {
-    font-size: 1.1em;
-    margin: 20px 0;
-    font-weight: 420;
-    max-width: 700px;
-}
-
-.text a{
-    display: inline-block;
-    font-size: 1em;
-    background: #ffffff;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: black;
-    margin-top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.2s;
-}
-
-.text a:hover {
-    letter-spacing: 6px;
+.column{
     
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column2{
+    
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .social {
@@ -208,8 +260,8 @@
 
 @media(max-width: 850px)
 {
-    .homePage, 
-    .homePage header{
+    .showcase, 
+    .showcase header{
         padding: 40px;
     }
     .text h2{
@@ -219,4 +271,3 @@
         font-size: 2em;
     }
 }
-
