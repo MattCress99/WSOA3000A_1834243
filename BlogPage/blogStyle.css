@@ -11,7 +11,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+#moreText{display: none;}
+#moreText2{display: none;}
+#moreText3{display: none;}
+#moreText4{display: none;}
 
 .logo{
     font-size: 2.5em;
@@ -127,10 +130,14 @@
 .BlogPost1 p {
     /*position: fixed;*/
     font-size: 1.1em;
-    margin: 20px 0;
+    margin: 20px 20px 20px 20px;
     font-weight: 500;
     /*max-width: 700px;*/
     background-blend-mode: overlay;    
+}
+
+.blogPost br{
+    line-height: 20px;
 }
 
 .BlogPost1 a{
@@ -144,6 +151,24 @@
 
 .BlogPost1 a:hover {
     letter-spacing: 4px;
+    
+}
+
+.ShowMoreButton{
+    display: inline-block;
+    font-size: 1em;
+    background: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.ShowMoreButton:hover {
+    letter-spacing: 6px;
     
 }
 
