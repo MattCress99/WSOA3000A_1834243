@@ -154,16 +154,15 @@
     position: relative;
     width : 60px;
     height: 60px;
-    background: url('../WSOA3028A_1834243/images/menu.png');
+    background: url('../images/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .toggle.active{
-    background: url('../WSOA3028A_1834243/images/close.png');
+    background: url('../images/close.png');
     color: white ;
     background-repeat: no-repeat;
     background-size: 25px;
