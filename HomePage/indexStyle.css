@@ -211,6 +211,24 @@
     .homePage header{
         padding: 40px;
     }
+    .homePage.active video
+    {
+        left: -35%;
+    }
+
+    .homePage.active
+    {
+        right: 35%;
+    }
+
+    .menu 
+    {
+        width:35%;
+    }
+    .menu ul li a
+    {
+        font-size: 1em;
+    }
     .text h2{
         font-size: 3em;
     }

@@ -17,6 +17,9 @@
     position: relative;
     z-index: 10;
     max-width: 85%;
+    border-radius: 20px;
+    background-color: #f2f2f2be;
+    padding: 10px;
 }
 
 .aboutInfo h1{
@@ -97,7 +100,7 @@
 }
 
 .aboutMe.active {
-    right: 15%;
+    right: 300px;
 }
 
 .aboutMe header{
@@ -125,13 +128,14 @@
 }
 
 .aboutMe.active video{
-    left:-15%;
+    left: -300px;
     transition: 0.5s;
 }
 
 .logo{
     font-size: 2.5em;
     font-weight: 300;
+    position: relative;
     font-family:'Times New Roman', Times, serif;
     color: #ffffff;
     text-transform: uppercase;
@@ -171,7 +175,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 15%;
+    width: 300px;
     height: 100%;
     
     display:flex;
@@ -235,6 +239,7 @@
 .social {
     position: absolute;
     bottom: 20px;
+    left: 2.5%;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -260,14 +265,48 @@
 
 @media(max-width: 850px)
 {
-    .showcase, 
-    .showcase header{
+    .aboutMe, 
+    .aboutMe header{
         padding: 40px;
     }
-    .text h2{
-        font-size: 3em;
+    .aboutInfo{
+        margin-top: 75px;
     }
-    .text h3{
+
+    .aboutMe.active video
+    {
+        left: -35%;
+    }
+
+    .aboutMe.active
+    {
+        right: 35%;
+    }
+
+    .menu 
+    {
+        width:35%;
+    }
+
+    .menu ul li a
+    {
+        font-size: 1em;
+    }
+
+    .social
+    {
+        bottom: 1px;
+    }
+
+    .aboutInfo h1
+    {
+        font-size: 2em;
+    }
+
+    .aboutInfo h2{
+        font-size: 2em;
+    }
+    .aboutInfo h3{
         font-size: 2em;
     }
 }

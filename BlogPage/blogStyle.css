@@ -11,6 +11,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .logo{
     font-size: 2.5em;
     font-weight: 300;
@@ -21,6 +23,7 @@
     text-decoration: none;
     transition: 0.2s;
 }
+
 .logo:hover{
     color: rgb(0, 0, 0);
     transform: scale(1.25);
@@ -36,7 +39,6 @@
     background-size: 30px;
     background-position: center;
     cursor: pointer;
-    
 }
 
 .toggle.active{
@@ -54,6 +56,7 @@
     right: 0;
     width: 300px;
     height: 100%;
+    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +79,7 @@
 }
 
 .overlay {
-    position:fixed;
+    position: absolute;
     top: 0;
     left: 0;
    
@@ -89,6 +92,7 @@
 .BlogPost1{
     position: relative;
     z-index: 10;
+    
 }
 
 .BlogPost1 h2 {
@@ -162,6 +166,7 @@
 
 .blogPost.active {
     right: 300px;
+    transition: 0.5s;
 }
 
 .blogPost header{
@@ -204,7 +209,9 @@
 
 .social {
     position: absolute;
-    bottom: 20px;
+    margin-top: 20px;
+    bottom: 0.5%;
+    left: 5%;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -230,14 +237,50 @@
 
 @media(max-width: 850px)
 {
-    .showcase, 
-    .showcase header{
+    .blogPost, 
+    .blogPost header{
+        
         padding: 40px;
     }
-    .text h2{
-        font-size: 3em;
+
+    .BlogPost1
+    {
+        margin-top: 75px;
+    }
+
+    .blogPost.active video
+    {
+        left: -35%;
+    }
+
+    .blogPost.active
+    {
+        right: 35%;
+    }
+
+    .menu 
+    {
+        width:35%;
+    }
+    .social
+    {
+        bottom: 1px;
+    }
+
+    .blogPost p
+    {
+        font-size: 0.75em;
+    }
+
+    .menu ul li a
+    {
+        font-size: 1em;
+    }
+
+    .blogPost h2{
+        font-size: 1.25em;
     }
     .text h3{
-        font-size: 2em;
+        font-size: 1.25em;
     }
 }
