@@ -13,7 +13,7 @@
             <header>
                 <a class="logo" href="../HomePage/index.html" alt="NTFS logo">NTFS</a>
                 <div class="toggle"></div>
-                
+                <script src="../ContactPage/ClearInputFields.js"></script> 
             </header>
 
             <video src="../images/Space-5200.mp4" muted loop autoplay></video>
@@ -35,16 +35,17 @@
                         <label for="country">Country</label>
                         <input type="text" id="country" name="country" placeholder="the country you currently live in...">
                         <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Tell us something.." style="height:170px"></textarea>
-                        <input type="submit" onclick="confirm('Thank you! Your message has been sent!')" value="Submit">
-                        
+                        <textarea id="subject" name="subject" placeholder="Tell us something.." style="height:170px"></textarea>                     
+                        <input type="submit"  onclick="confirm('Thank you! Your message has been sent!'); document.getElementById('fname').value = ''; document.getElementById('sName').value = ''; document.getElementById('country').value = ''; document.getElementById('subject').value=''" value="Submit"> <!---->
+                        <!--onclik="confirm('Thank you! Your message has been sent!')"-->
                     <!--</form>-->
+                    
                     
            </article>
 
             <ul class="social">
-                <li><a href="https://www.facebook.com/notime4space" target="_blank"><img src="../images/facebook.png" width="40" height="40" alt="facebook icon"></a></li>
-                <li><a href="https://www.instagram.com/notimeforspace/" target="_blank"><img src="../images/instagram.png" width="40" height="40" alt="instagram icon"></a></li>
+                <li><a class="u-url" href="https://www.facebook.com/notime4space" target="_blank"><img src="../images/facebook.png" width="40" height="40" alt="facebook icon"></a></li>
+                <li><a class="u-url" href="https://www.instagram.com/notimeforspace/" target="_blank"><img src="../images/instagram.png" width="40" height="40" alt="instagram icon"></a></li>
                 
             </ul>
 
