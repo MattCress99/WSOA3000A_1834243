@@ -11,7 +11,7 @@
     font-family: 'Poppins', sans-serif;
 }
 /* _____________________________________________________________________index.html_____________________________________________________________________ */
-.homePage {
+.musicPage {
     position: absolute;
     right: 0;
     width: 100%;
@@ -26,11 +26,11 @@
     transition: 0.5s;
 }
 
-.homePage.active {
+.musicPage.active {
     right: 15%;
 }
 
-.homePage header{
+.musicPage header{
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@
 
 }
 
-.homePage video{
+.musicPage video{
     position: fixed;
     top: 0;
     left: 0;
@@ -54,25 +54,23 @@
     transition: 0.5s;
 }
 
-.homePage.active video{
+.musicPage.active video{
     left:-15%;
     transition: 0.5s;
 }
 
-.homePage iframe{
-    /*border-radius: 15px;
+.musicPage iframe{
+    border-radius: 15px;
     background-color: #ffffff;
-    padding: 15px;*/
-    margin-top: 20px;
+    padding: 15px;
+    margin-top: 75px;
+    margin-left: 20px;
     z-index: 1000;
-    width: 150%;
-    height: 500px;
+    width: 95%;
+    height: 600px;
 }
 
-.homePage article{
-    margin-top:5%;
-    margin-bottom: 2.5%;
-}
+
 
 /*this must be added to each .css script*/
 .logo{
@@ -153,50 +151,6 @@
 }
 /*this must be added to each .css script*/
 
-.text{
-    position: relative;
-    z-index: 10;
-}
-
-.text h2 {
-    font-size: 5em;
-    font-weight: 800;
-    line-height: 1em;
-    text-transform: uppercase;
-}
-
-.text h3 {
-    font-size: 2em;
-    font-weight: 600;
-    line-height: 1em;
-}
-
-.text p {
-    font-size: 1.1em;
-    margin: 20px 0;
-    font-weight: 420;
-    max-width: 700px;
-}
-
-.text a{
-    display: inline-block;
-    font-size: 1em;
-    background: #ffffff;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: black;
-    margin-top: 10px;
-    text-transform: uppercase;
-    
-    letter-spacing: 2px;
-    transition: 0.2s;
-}
-
-.text a:hover {
-    letter-spacing: 6px;
-    
-}
-
 .social {
     position: absolute;
     bottom: 20px;
@@ -231,25 +185,25 @@
 
 @media(max-width: 1000px)
 {
-    .homePage, 
-    .homePage header{
+    .musicPage, 
+    .musicPage header{
         padding: 40px;
     }
-    .homePage.active video
+    .musicPage.active video
     {
         left: -35%;
     }
 
-    .homePage.active
+    .musicPage.active
     {
         right: 35%;
     }
 
-    .homePage iframe{
+    .musicPage iframe{
         display: block;
         margin-top: 10px;
-        width: 100%;
-        height: 400px;
+        width: 90%;
+        height: 600px;
     }
 
     .text a{
@@ -281,10 +235,9 @@
 
 @media(max-height: 850px)
 {
-    .homepage,
-    .homePage article{
+    .musicPage,
+    .musicPage article{
         margin-top:25%;
         margin-bottom: 10%;
     }
 }
-

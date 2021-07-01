@@ -161,6 +161,7 @@
 
 .toggle{
     position: relative;
+    padding: 5px;
     width : 60px;
     height: 60px;
     background: url('../images/menu.png');
@@ -270,6 +271,13 @@
     transform: scale(0.5) translateY(-15px);
 }
 
+@media(max-width: 1400px)
+{
+    .aboutInfo{
+        margin-top:145px;
+    }
+}
+
 
 @media(max-width: 850px)
 {
@@ -306,6 +314,21 @@
         bottom: 1px;
     }
 
+    .aboutInfo a
+    {
+        display:inline-block;
+        font-size: 0.1em;
+        
+        background: #ffffff;
+        padding: 4px 12px;
+        text-decoration: none;
+        color: black;
+        margin-top:0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: 0.2s;
+    }
+
     .aboutInfo h1
     {
         font-size: 2em;
@@ -316,5 +339,23 @@
     }
     .aboutInfo h3{
         font-size: 2em;
+    }
+}
+
+@media(max-width: 300px)
+{
+    .aboutInfo h1
+    {
+        font-size: 1.25em;
+    }
+
+    .aboutInfo h2{
+        font-size: 1em;
+    }
+    .aboutInfo h3{
+        font-size: 1em;
+    }
+    .aboutInfo p{
+        font-size: 0.75em;
     }
 }

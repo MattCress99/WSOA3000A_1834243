@@ -30,6 +30,7 @@
 
 .toggle{
     position: relative;
+    padding: 5px;
     width : 60px;
     height: 60px;
     background: url('../images/menu.png');
