@@ -12,11 +12,9 @@
 }
 
 #moreText{display: none;}
-#moreText2{display: none;}
-#moreText3{display: none;}
-#moreText4{display: none;}
 
-.logo{
+
+.u-logo{
     font-size: 2.5em;
     font-weight: 300;
     font-family:'Times New Roman', Times, serif;
@@ -27,15 +25,20 @@
     transition: 0.2s;
 }
 
-.logo:hover{
+.u-logo:hover{
     color: rgb(0, 0, 0);
     transform: scale(1.25);
     transition: 0.2s;
 }
 
 .toggle{
-    position: relative;
-    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-left: 75px;
+    padding-bottom: 75px;
     width : 60px;
     height: 60px;
     background: url('../images/menu.png');
@@ -43,6 +46,7 @@
     background-size: 30px;
     background-position: center;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .toggle.active{
@@ -52,6 +56,8 @@
     background-size: 25px;
     background-position: center;
     cursor: pointer;
+    padding-right: 25%;
+    transition: 0.5s;
 }
 
 .menu {
@@ -272,6 +278,7 @@
     .BlogPost1
     {
         margin-top: 75px;
+        margin-right: 50px;
     }
 
     .blogPost.active video
@@ -282,6 +289,13 @@
     .blogPost.active
     {
         right: 35%;
+    }
+
+    .toggle
+    {
+        padding: 0;
+        margin-top: 40px;
+        margin-right: 20px;
     }
 
     .menu 
@@ -308,5 +322,15 @@
     }
     .text h3{
         font-size: 1.25em;
+    }
+}
+
+@media(max-width: 350px)
+{
+    .toggle
+    {
+        padding: 0;
+        margin-top: 35px;
+        margin-right: 10px;
     }
 }

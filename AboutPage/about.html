@@ -6,15 +6,21 @@
         <link rel="stylesheet" href="../AboutPage/aboutStyle.css">
         <title>NoTimeForSpace</title>
         <meta property="og:title" content="NoTimeForSpace" />
-        
+        <meta name="description" content="No Time for Space website about page by Matthew Cresswell">
+        <meta property="og:title" content="NoTimeForSpace" />
+        <meta property="og.url" content="https://mattcress99.github.io/WSOA3028A_1834243/about.html">
+        <meta property="of:description" content="No Time for Space about page by Matthew Cresswell">
+        <meta property="og:site_name" content="NoTimeForSpace">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     </head>
 
     <body>
         <section class="aboutMe">
             <header>
-                <a class="logo" href="../HomePage/index.html" alt="NTFS logo">NTFS</a>
+                <a class="u-logo" href="../HomePage/index.html" alt="NTFS logo">NTFS</a>
                 <div class="toggle"></div>
-                <script src="../ShowMoreTextScript.js"></script>
+                
             </header>
 
             <video class="background video" src="../images/Space-5200.mp4" muted loop autoplay></video>
@@ -36,17 +42,17 @@
                     together and officially released NTFS to the world. <br>These 6 individuals are:</p> 
                     <section class="row">
                         <section class="column">
-                            <img src="../images/NTFSIMG2.jpg" alt="NTFS frame 1", style="width:100%;">
+                            <img src="../images/NTFSIMG2.jpg" alt="NTFS frame 1", style="width:100%; display: block;">
                         </section>
                         <section class="column">
-                            <img src="../images/NTFSIMG1.jpg", style="width:100%;">
+                            <img src="../images/NTFSIMG1.jpg", style="width:100%; display: block;">
                         </section>
                         <section class="column">
-                            <img src="../images/NTFSIMG2.jpg", style="width:100%;">
+                            <img src="../images/NTFSIMG2.jpg", style="width:100%; display: block;">
                         </section>
                     </section>
                 <br> 
-                
+                <span id="points", style="display: block; text-align: center;">...</span>
                 <span id="moreText">
                 <h2>Juan Pierre</h2>
                     <p>Juan Pierre is the founder of NTFS. He believes in uplifting the local community in all different forms of art. He also
@@ -223,7 +229,7 @@
                 <img class="u-photo"  src="../images/Wireframes0001.jpg" alt="Annotated wireframes 1" style="margin-left: 35%; width:35%; height: 35%;">
                 <img class="u-photo"  src="../images/wireframes2.jpg" alt="Annotated wireframes 2" style="margin-left: 35%; width:35%; height: 35%;">
             </span>
-            <a class="ShowMoreButton" onclick="toggleText()" id="textButton">Show More</a> 
+            <a class="ShowMoreButton" id="textButton">Read More</a> 
             </article>
             <ul class="social">
                 <li><a class="u-url" href="https://www.facebook.com/notime4space" target="_blank"><img src="../images/facebook.png" width="40" height="40" alt="facebook icon"></a></li>
@@ -232,7 +238,7 @@
             </ul>
     
         </section>
-
+        <script src="../BlogPage/ShowMoreTextScript.js"></script>
        
         <nav class="menu">
             <ul>
@@ -245,6 +251,6 @@
             </ul>
         </nav>
 
-        <script src="../AboutPage/aboutScript.js"></script>
+        <script src="../HomePage/indexScript.js"></script>
     </body>
 </html>

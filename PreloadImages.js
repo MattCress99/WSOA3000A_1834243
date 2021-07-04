@@ -1,4 +1,4 @@
-var images = new Array()
+const images = new Array()
 function preLoadImages()
 {
     for(i=0; i < preLoadImages.arguments.length; i++)
