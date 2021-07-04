@@ -336,6 +336,12 @@
         transition: 0.2s;
     }
 
+    .toggle.active
+    {
+        padding-right: 0;
+        margin-right: 35%;
+    }
+
     .breakFastClub_Vol2 a{
         display: inline-block;
         margin-left: 0;
