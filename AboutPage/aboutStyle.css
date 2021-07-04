@@ -225,7 +225,7 @@
 }
 
 .column{
-    
+
     float: left;
     width: 33.33%;
     padding: 5px;
@@ -301,6 +301,17 @@
     .aboutMe.active video
     {
         left: -35%;
+    }
+
+    .column{
+        width:100%; 
+    }
+    .column2{
+        width:100%; 
+    }
+
+    .row::after{
+        
     }
 
     .aboutMe.active
