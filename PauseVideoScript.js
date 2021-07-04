@@ -41,13 +41,13 @@ if (typeof document.addEventListener === "undefined" || hidden === undefined) {
   // When the video pauses, set the title.
   // This shows the paused
   videoElement.addEventListener("pause", function(){
-    document.title = 'Paused';
+    document.title = 'NoTimeForSpace *Not Sending ;(*';
     console.log("video is paused");
   }, false);
 
   // When the video plays, set the title.
   videoElement.addEventListener("play", function(){
-    document.title = 'Playing';
+    document.title = 'NoTimeForSpace *currently Sending*';
     console.log("video is playing");
   }, false);
 
